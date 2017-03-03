@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "pretest": "echo starting tests!!!",
+    "test": "node test",
+    "posttest": "echo thank you for testing",
+    "test-watch": "nodemon test"
+
+  },
+  "author": "",
+  "license": "ISC"
+}

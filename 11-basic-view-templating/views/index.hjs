@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<title></title>
+</head>
+<body>
+	{{> header}}
+	{{#showTweets}}
+	{{> tweets}}
+	{{/showTweets}}
+	<script src="/js/main.js"></script>
+</body>
+</html>
